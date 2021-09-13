@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <title>Unit 2 - Radiology Chest</title>
+    <script src="vendors/jquery/jquery.js"></script>
+    <script src="vendors/jqueryui/jquery-ui.js"></script>
+    <script src="vendors/jqueryui/jquery.ui.touch-punch.min.js"></script>
+    <script src="https://www.coursera.org/widget/coursera-widget-connect-v0.js"></script>
+</head>
+<link rel="stylesheet" href="style/index.css">
+
+<body>
+    <main id="mainContainer" class="mainContainer" aria-label="To explore the activity, press the tab key.">
+
+    </main>
+</body>
+<script src="vendors/requirejs/require.js"></script>
+<script>
+    requirejs.config({
+        baseUrl: 'output/',
+        paths: {
+            vendors: 'vendors',
+            lodash: "../vendors/lodash/lodash",
+            jquery: "../vendors/jquery/jquery",
+            jqueryui: "../vendors/jqueryui/jquery-ui",
+        }
+    })
+    //startup file
+    requirejs(["Activity"]);
+</script>
+
+</html>

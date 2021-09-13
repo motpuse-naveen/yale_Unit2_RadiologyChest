@@ -1,0 +1,577 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*{        
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@font-face {
+    font-family: 'AvenirLTPro-Book';    
+    src: local('AvenirLTPro-Book'), url('../font/AvenirLTPro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirLTPro-Light';    
+    src: local('AvenirLTPro-Light'), url('../font/AvenirLTPro-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirLTPro-Black';    
+    src: local('AvenirLTPro-Black'), url('../font/AvenirLTStd-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body
+{
+    font-family: 'AvenirLTPro-Book';
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+body:not(.show-focus-outlines) *:focus,
+body:not(.show-focus-outlines) [tabindex]:focus {
+    outline: none;
+    outline-style: none;
+}
+
+.tabindex:focus {
+    outline:2px solid #ffa500;
+  }
+  
+[tabindex]:focus {
+    outline: 2px solid #ffa500;    
+}
+
+
+.mainContainer {
+  max-width: 1024px;
+  max-height: 768px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;   
+  display: block;
+  color: #ffffff;
+}
+.mainTitle{
+
+  font-size: 18px;
+  color: #0F3667;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.questionCount{
+    font-size: 16px;
+    color: #0F3667;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 15px;
+    float: right;
+    display: inline-block;
+}
+
+.header{
+  max-height: 66px;
+  background-color: #FFFFFF;
+  border-bottom: 3px solid #286DC0;
+  display: block;
+   position: relative;
+}
+
+.pageContainer{
+    max-height: 629px;
+    background-color: #D3D3D3;
+    max-width: 1024px;
+    padding-top: 20px;
+    position: relative;
+    padding-bottom: 20px;
+  
+}
+
+.slideContainer{
+    max-height: 574px;
+    background-color: #FFFFFF;
+    /* max-width: 984px; */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 95%;
+
+}
+
+.instruction{
+
+  max-height: 40px;
+  color: #FFFFFF;
+  max-width: 1018px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;   
+  display: block;
+  
+}
+
+.instructionText{
+
+    font-size: 18px;
+    color: #286DC0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    font-weight: bold;
+
+}
+
+.dropSection{
+  max-height: 484px;
+  background-color: #0F3667;
+  max-width: 984px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;   
+  display: block;
+  border-top: 1px solid #D3D3D3;
+  border-bottom: 1px solid #D3D3D3;
+  text-align: center;
+}
+
+.dragSection{
+    max-height: 65px; 
+    color: #286DC0;
+    display: inline-block;
+    width: 100%;
+
+}
+.navigation{
+    background-color: #FFFFFF;
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.dragNext{
+    float: right;
+    /* width: 8px; */
+    /* height: 66px; */
+    position: relative;
+    padding: 23px 12px 0px 12px;
+    background-color: #FFFFFF;
+
+}
+
+
+.dragBack{
+    float: left;
+    position: relative;
+    padding: 23px 12px 0px 12px;
+    background-color: #FFFFFF;
+}
+
+.naviagtionNext{
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.naviagtionBack{
+  float: left;
+  display: inline-block;
+  width:49px;
+  height: 49px;
+
+}
+
+.button{
+    margin: 0 auto;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #BEBFBF;
+    cursor: pointer;
+    font-family: 'AvenirLTPro-Book';
+    font-size: 20px;
+    font-weight: 200;
+    height: 49px;
+    line-height: 44px;
+    text-align: center;
+    outline-offset: 5px;
+    width: 149px;
+    border: 2px #BEBFBF solid;
+    background-color: #0F3667;
+
+}
+
+.checkAnswer{
+    display: block;
+}
+
+.tryAgain{
+    display: none;
+}
+
+.clearAnswer{
+    display: none;
+}
+
+.disabled{
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.enabled{
+    pointer-events: cursor;
+    opacity: 1;
+ 
+}
+
+.dropSectionPosition{
+    max-width: 984px;
+    max-height: 484px;
+    /*width: 100%;
+    height: 100%;*/
+    position: relative;
+    margin: 0 auto;
+}
+
+.hotSpotImage{
+    width: 100%;
+    /*height: 100%;*/
+}
+
+.spot{
+    width:22px;
+    height:22px;
+    position: absolute;
+}
+
+.dragBox{
+    border-radius: 6px;
+    box-sizing: border-box;
+    cursor: default;
+    float: left;
+    padding: 6px 10px 9px 10px;
+    width: auto;
+    text-align: left;
+    border: 2px solid #BEBFBF;
+    font-size: 16px;
+    margin: 3px 8px 0px 8px;
+    background-color: #ffffff;
+    /* z-index: 10000; */
+}
+
+.dragBoxOpacity{
+    opacity: 0.8;
+    margin: 0px 0px 0px 0px!important;
+}
+
+.dragFontColor{
+    color: #007098;
+}
+
+.dropDragBox{
+    margin: 0px !important;
+    background-color: transparent !important;
+    border-radius: 6px;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: left;
+    padding: 6px 10px 9px 10px;
+    width: auto;
+    text-align: left;
+    font-size: 16px;
+}
+
+.dragable{
+    position: relative;
+    float: left;
+    width: 93%;
+    padding: 6px 25px 6px 26px;
+    display: block;
+    height: 66px;
+}
+
+
+.callout {
+    box-sizing: border-box;
+	float: left;
+	background-color: #ffffff;
+	position: absolute;
+	color: #00356B;
+	border-radius: 6px;
+	/*box-shadow: 0px 0px 20px #999;*/
+	max-height: 36px;
+	border: 2px solid #BEBFBF;
+}
+
+.callout::before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	border: 0.8em solid transparent;
+	position: absolute;
+}
+
+.callout.top::before {
+	left: 45%;
+    bottom: -25px;
+	border-top: 10px solid #BEBFBF;
+}
+
+.callout.bottom::before {
+    left: 2%;
+    top: -25px;
+    border-bottom: 10px solid #BEBFBF;
+}
+
+.callout.left::before {
+    right: -24px;
+    top: 6%;
+    border-left: 10px solid #BEBFBF;
+}
+
+.callout.right::before {
+    left: -24px;
+    top: 6%;
+    border-right: 10px solid #BEBFBF;
+}
+
+.callout.top-left::before {
+	left: 12px;
+    bottom: -24px;
+    border-top: 10px solid #BEBFBF;
+}
+
+.callout.top-right::before {
+	right: 4px;
+	bottom: -25px;
+	border-top: 10px solid #BEBFBF;
+}
+
+.callout.bottom-right::before {
+    right: 1%;
+    top: -25px;
+    border-bottom: 10px solid #BEBFBF;
+}
+
+
+ul#popup {
+    position: absolute;
+    width: 9em;
+    padding: 0.3em;
+    background: #fff;
+    color: #0F3667;
+    border: 1px solid #0F3667;
+    /*top: -134px;*/
+    left: 0px;
+    cursor: default;
+    z-index: 40;
+    border-radius: 4px;
+    list-style-type: none;
+}
+
+ul#popup li:focus {
+  outline:2px solid #ffa500 !important;
+}
+ul#popup li {
+    text-align: left;
+    margin: 3px 0;
+    padding: 2px 5px;
+    font-size: 13px;
+    background: #0F3667;
+    color: #fff;  
+}
+
+.inactive {
+  background: #f0f0f0 none repeat scroll 0 0;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2) inset;
+  color: #202020;
+  padding: 2px;
+  text-align: left;
+}
+
+.circle {
+    width: 24px;
+    height: 24px;
+    /*background: #bebfbf;*/
+    background: #747676;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    line-height: 23px;
+}
+
+.circleActive{
+    width: 24px;
+    height: 24px;
+    background: #00818A;
+    /*background: #00d0dd;*/
+    border: 2px solid #fff;
+    border-radius: 50%;
+    line-height: 23px;
+}
+
+
+.menu-wrapper {
+	position: relative;
+	/*overflow-x: hidden;
+    overflow-y: hidden;*/
+    width: 100%
+}
+
+.menu	{
+	box-sizing: border-box;
+	white-space: nowrap;
+	/*overflow-x: auto;
+	overflow-y: hidden;*/
+	-webkit-overflow-scrolling: touch;
+}
+
+.menu .item {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+.paddle {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+    z-index: 1;
+}
+.left-paddle {
+	left: 0;
+}
+.right-paddle {
+	right: 0;
+}
+.hidden {
+	display: none;
+}
+
+
+/* Media Queries */
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .pageContainer {
+        max-height: 588px;
+        padding-top:0px !important; 
+        padding-bottom:0px !important;
+    } 
+    .dragBox {
+        font-size: 16px !important;
+        /* z-index: 10000; */
+    }
+
+    .button {
+        font-size: 18px;
+        height: 42px;
+        line-height: 38px;
+        width: 140px;
+        }
+
+        .slideContainer{
+
+            width: 100% !important;
+
+        }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .slideContainer{
+
+        width: 100% !important;
+
+    }
+    
+    .pageContainer {
+        max-height: 588px;
+        padding-top:0px !important; 
+        padding-bottom:0px !important;
+    } 
+
+    .mainTitle {
+        font-size: 16px;
+        color: #0F3667;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        display: inline-block;
+    }
+
+    .questionCount {
+        font-size: 14px;
+        color: #0F3667;
+        padding-top: 15px;
+        padding-right: 15px;
+        float: right;
+        display: inline-block;
+    }
+
+    .mainTitle {
+        font-size: 18px;
+        color: #0F3667;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        display: inline-block;
+        height: 47px;
+    }
+
+    .instructionText {
+        font-size: 14px;
+        }
+
+        .dragBox {
+            font-size: 12px !important;
+            /* z-index: 10000; */
+        }
+
+        .button {
+            font-size: 14px;
+            height: 39px;
+            line-height: 34px;
+            width: 120px;
+            }
+}
+
+/* Landscape: */
+    
+   @media only screen and (min-width: 320px) 
+                   and (max-width: 480px) 
+                   and (orientation: landscape) {
+   
+    .pageContainer {
+        padding-top:0px !important; 
+    } 
+
+}
+
+  

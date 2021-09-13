@@ -1,0 +1,30 @@
+{
+  "short_name": "Base_Cavernous_Sinus",
+  "name": "Base_Cavernous_Sinus",
+  "description": "This widget enables dragging and dropping Human body.",
+  "maintainer": {
+    "name": "Dhawal Ladkat",
+    "email": "dhawal.ladkat@aptaracorp.com"
+  },
+  "version": "0.0.1",
+  "sandbox": "allow-scripts allow-same-origin allow-forms",
+
+  "configurationExamples": [
+    {
+      "configuration": {}
+    }
+  ],
+
+  "macros": [],
+  "authorizations": {},    
+  "actionTypes": [
+    "GET_SESSION_CONFIGURATION", "SET_HEIGHT"
+  ],
+  "accessibility": {
+    "mobileCompatibility": {
+      "supportsTouch": true,
+      "minHeightPx": 480,
+      "minWidthPx": 320
+    }
+  }
+}

@@ -1,0 +1,59 @@
+[
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_01.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			392,
+			627
+		],
+		"TopPos": [
+			242,
+			341
+		],
+		"OptionArray": [
+			"Left hemidiaphragm",
+			"Right hemidiaphragm"
+		],
+		"DropPosition": [
+			"Left",
+			"Right"
+		],
+		"CorrectOptionArray": [
+			"Right hemidiaphragm",
+			"Left hemidiaphragm"
+		],
+		"DropListArray": [
+			"1",
+			"2"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	}
+]
