@@ -1,4 +1,5 @@
 [
+
 	{
 		"header": {
 			"titleText": "Radiology Chest"
@@ -28,12 +29,12 @@
 			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
 		},
 		"LeftPos": [
-			392,
-			627
+			384,
+			642
 		],
 		"TopPos": [
-			242,
-			341
+			258,
+			342
 		],
 		"OptionArray": [
 			"Left hemidiaphragm",
@@ -52,6 +53,1377 @@
 			"2"
 		],
 		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_02.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			534,
+			444,
+			508,
+			340,
+			620,
+			340
+		],
+		"TopPos": [
+			25,
+			124,
+			238,
+			240,
+			315,
+			442
+		],
+		"OptionArray": [
+			"Oblique (minor) fissure",  
+			"Horiz. (minor) fissure",
+			"Right upper lobe",
+			"Liver",
+			"Right lower lobe",
+			"Right middle lobe"
+		],
+		"DropPosition": [
+			"Right",
+			"Top",
+			"Right",
+			"Left",
+			"Right",
+			"Right"
+		],
+		"CorrectOptionArray": [
+			"Right upper lobe",  
+			"Horiz. (minor) fissure",
+			"Oblique (minor) fissure",
+			"Right middle lobe",
+			"Right lower lobe",
+			"Liver"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_03.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			479,
+			427,
+			540,
+			559,
+			614,
+			457
+		],
+		"TopPos": [
+			199,
+			308,
+			60,
+			221,
+			295,
+			75
+		],
+		"OptionArray": [
+			"Arch of aorta",  
+			"Superior vena cava",
+			"Thoracic aorta",
+			"Vertebral column",
+			"Right atrium",
+			"Left ventricle"
+		],
+		"DropPosition": [
+			"Left",
+			"Left",
+			"Right",
+			"Right",
+			"Right",
+			"Left"
+		],
+		"CorrectOptionArray": [
+			"Vertebral column",  
+			"Right atrium",
+			"Arch of aorta",
+			"Thoracic aorta",
+			"Left ventricle",
+			"Superior vena cava"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+   {
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_04.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			454,
+			563,
+			430,
+			628,
+			401
+		],
+		"TopPos": [
+			101,
+			141,
+			221,
+			248,
+			278			
+		],
+		"OptionArray": [
+			"Oblique fissure",  
+			"Horizontal fissure",
+			"Right middle lobe",
+			"Right lower lobe",
+			"Right upper lobe"
+		],
+		"DropPosition": [
+			"Left",
+			"Right",
+			"Left",
+			"Right",
+			"Left"
+		],
+		"CorrectOptionArray": [
+			"Right upper lobe",  
+			"Oblique fissure",
+			"Horizontal fissure",
+			"Right lower lobe",
+			"Right middle lobe"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_05.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			411,
+			440,
+			418,
+			504,
+			539,
+			621
+		],
+		"TopPos": [
+			23,
+			130,
+			292,
+			25,
+			73,
+			296
+		],
+		"OptionArray": [
+			"Apex of lung",  
+			"Trachea",
+			"R. mainstem bronchus",
+			"Aorta",
+			"Right atrium",
+			"Left ventricle"
+		],
+		"DropPosition": [
+			"Left",
+			"Left",
+			"Left",
+			"Right",
+			"Right",
+			"Right"
+		],
+		"CorrectOptionArray": [
+			"Apex of lung",  
+			"R. mainstem bronchus",
+			"Right atrium",
+			"Trachea",
+			"Aorta",
+			"Left ventricle"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_06.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			430,
+			418,
+			539,
+			430
+		],
+		"TopPos": [
+			116,
+			292,
+			396,
+			430
+		],
+		"OptionArray": [
+			"Right lower lobe",  
+			"Bowel gas",
+			"Right upper lobe",
+			"Right middle lobe"
+		],
+		"DropPosition": [
+			"Left",
+			"Left",
+			"Right",
+			"Left"
+		],
+		"CorrectOptionArray": [
+			"Right upper lobe",  
+			"Right middle lobe",
+			"Right lower lobe",
+			"Bowel gas"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_07.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			347,
+			311,
+			555,
+			786,
+			647,
+			372
+		],
+		"TopPos": [
+			101,
+			355,
+			51,
+			86,
+			134,
+			419
+		],
+		"OptionArray": [
+			"Hemidiaphragm",  
+			"Scapula",
+			"Breast outline",
+			"Humeral head",
+			"3rd Rib",
+			"Clavicle"
+		],
+		"DropPosition": [
+			"Left",
+			"Left",
+			"Left",
+			"Left",
+			"Left",
+			"Left"
+		],
+		"CorrectOptionArray": [
+			"3rd Rib",  
+			"Hemidiaphragm",
+			"Clavicle",
+			"Humeral head",
+			"Scapula",
+			"Breast outline"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_08.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			581,
+			482,
+			644,
+			541,
+			389,
+			550
+		],
+		"TopPos": [
+			61,
+			139,
+			158,
+			244,
+			267,
+			317
+		],
+		"OptionArray": [
+			"Thoracic aorta",  
+			"Right atrium",
+			"Left atrium",
+			"Right ventricle",
+			"Pulmonary vein",
+			"Left ventricle"
+		],
+		"DropPosition": [
+			"Bottom",
+			"Left",
+			"Right",
+			"Right",
+			"Left",
+			"Right"
+		],
+		"CorrectOptionArray": [
+			"Right ventricle",  
+			"Right atrium",
+			"Left ventricle",
+			"Left atrium",
+			"Pulmonary vein",
+			"Thoracic aorta"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_09.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			537,
+			523,
+			503,
+			510,
+			597,
+			589
+		],
+		"TopPos": [
+			101,
+			141,
+			196,
+			299,
+			157,
+			275
+		],
+		"OptionArray": [
+			"Thoracic aorta",
+			"Head of rib",
+			"Vertebral body",
+			"Spinal canal",
+			"Azygos vein",
+			"Esophagus"
+		],
+		"DropPosition": [
+			"Left",
+			"Left",
+			"Left",
+			"Left",
+			"Right",
+			"Right"
+		],
+		"CorrectOptionArray": [
+			"Esophagus",  
+			"Azygos vein",
+			"Vertebral body",
+			"Spinal canal",
+			"Thoracic aorta",
+			"Head of rib"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_10.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			518,
+			496,
+			412,
+			586,
+			617,
+			746
+		],
+		"TopPos": [
+			109,
+			220,
+			348,
+			125,
+			230,
+			433
+		],
+		"OptionArray": [ 
+			"Right atrium",
+			"Spleen",
+			"Pulmonary trunk",
+			"Liver",
+			"Left ventricle",
+			"Ascending aorta"
+		],
+		"DropPosition": [
+			"Left",
+			"Left",
+			"Left",
+			"Right",
+			"Right",
+			"Left"
+		],
+		"CorrectOptionArray": [
+			"Ascending aorta",  
+			"Right atrium",
+			"Liver",
+			"Pulmonary trunk",
+			"Left ventricle",
+			"Spleen"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_11.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			535,
+			402,
+			265,
+			510,
+			412,
+			402
+		],
+		"TopPos": [
+			36,
+			165,
+			191,
+			211,
+			278,
+			330
+		],
+		"OptionArray": [ 
+			"Breast",
+			"Left atrium",
+			"Trachea", 
+			"Left hemidiaphragm",
+			"Right ventricle",
+			"R hemidiaphragm"
+		],
+		"DropPosition": [
+			"Right",
+			"Top",
+			"Left",
+			"Right",
+			"Left",
+			"Bottom"
+		],
+		"CorrectOptionArray": [
+			"Trachea",  
+			"Right ventricle",
+			"Breast",
+			"Left atrium",
+			"R hemidiaphragm",
+			"Left hemidiaphragm"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_12.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			328,
+			616
+		],
+		"TopPos": [
+			29,
+			338
+		],
+		"OptionArray": [ 
+			"Left lower lobe",
+			"Left upper lobe"  
+		],
+		"DropPosition": [
+			"Left",
+			"Right"
+		],
+		"CorrectOptionArray": [
+			"Left upper lobe",  
+			"Left lower lobe"
+		],
+		"DropListArray": [
+			"1",
+			"2"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_13.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			514,
+			385,
+			373,
+			553,
+			514,
+			563
+		],
+		"TopPos": [
+			29,
+			113,
+			267,
+			92,
+			142,
+			275
+		],
+		"OptionArray": [ 
+			"Right ventricle",
+			"Great vessels",  
+			"Sternal angle",
+			"Aortic arch",
+			"Thoracic aorta",
+			"Pulmonary trunk"
+		],
+		"DropPosition": [
+			"Left",
+			"Left",
+			"Left",
+			"Right",
+			"Right",
+			"Right"
+		],
+		"CorrectOptionArray": [
+			"Great vessels",  
+			"Sternal angle",
+			"Right ventricle",
+			"Aortic arch",
+			"Pulmonary trunk",
+			"Thoracic aorta"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+   {
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_14.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			419,
+			399,
+			477,
+			599,
+			661,
+			579
+		],
+		"TopPos": [
+			65,
+			132,
+			176,
+			102,
+			157,
+			199
+		],
+		"OptionArray": [ 
+			"Common carotid artery",
+			"Trachea",
+			"Esophagus",
+			"Thyroid",
+			"Sternocleidomastoid m.",  
+			"Internal jugular vein"
+		],
+		"DropPosition": [
+			"Left",
+			"Left",
+			"Left",
+			"Right",
+			"Right",
+			"Bottom"
+		],
+		"CorrectOptionArray": [
+			"Sternocleidomastoid m.",  
+			"Internal jugular vein",
+			"Common carotid artery",
+			"Trachea",
+			"Thyroid",
+			"Esophagus"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_15.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			379,
+			334,
+			314,
+			276,
+			595,
+			608
+		],
+		"TopPos": [
+			67,
+			201,
+			255,
+			362,
+			141,
+			314
+		],
+		"OptionArray": [ 
+			"Horizontal fissure",
+			"Right upper lobe",  
+			"Left lower lobe",
+			"Right middle lobe",
+			"Right lower lobe",
+			"Left upper lobe"
+		],
+		"DropPosition": [
+			"Left",
+			"Left",
+			"Left",
+			"Left",
+			"Right",
+			"Bottom"
+		],
+		"CorrectOptionArray": [
+			"Right upper lobe",  
+			"Horizontal fissure",
+			"Right middle lobe",
+			"Right lower lobe",
+			"Left upper lobe",
+			"Left lower lobe"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_16.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			492,
+			453,
+			517,
+			557,
+			598,
+			617
+		],
+		"TopPos": [
+			163,
+			249,
+			297,
+			359,
+			183,
+			307
+		],
+		"OptionArray": [ 
+			"Pulmonary trunk",
+			"Ascending aorta",
+			"Esophagus",  
+			"Right pulmonary artery",
+			"Left pulmonary artery",
+			"Thoracic aorta"
+		],
+		"DropPosition": [
+			"Top",
+			"Left",
+			"Left",
+			"Bottom",
+			"Right",
+			"Right"
+		],
+		"CorrectOptionArray": [
+			"Ascending aorta",  
+			"Right pulmonary artery",
+			"Esophagus",
+			"Thoracic aorta",
+			"Pulmonary trunk",
+			"Left pulmonary artery"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_17.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			464,
+			515,
+			568
+		],
+		"TopPos": [
+			122,
+			194,
+			330
+		],
+		"OptionArray": [ 
+			"Left lower lobe",  
+			"Oblique fissure",
+			"Left upper lobe"
+		],
+		"DropPosition": [
+			"Left",
+			"Right",
+			"Right"
+		],
+		"CorrectOptionArray": [
+			"Left upper lobe",  
+			"Oblique fissure",
+			"Left lower lobe"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
+		]
+	},
+
+	{
+		"header": {
+			"titleText": "Radiology Chest"
+		},
+		"pageSection": {
+			"titleInstruction": "Drag and drop the labels.",
+			"hotSpotImageSrc": "assets/Question_18.png",
+			"hotSpotImageWidth": "984",
+			"hotSpotImageHeight": "482",
+			"dragNextImageSrc": "assets/Dragger_Arrow_Next_Active.svg",
+			"dragBackImageSrc": "assets/Dragger_Arrow_Back_Active.svg",
+			"dragNextDeactiveImageSrc": "assets/Dragger_Arrow_Next_Deactive.svg",
+			"dragBackDeactiveImageSrc": "assets/Dragger_Arrow_Back_Deactive.svg"
+		},
+		"bottomContainer": {
+			"nextButtonPathActive": "<img src=\"assets/Next_button_Active.svg\">",
+			"nextButtonPathDeactive": "<img src=\"assets/Next_button_Dective.svg\">",
+			"backButtonPathActive": "<img src=\"assets/Back_button_Active.svg\">",
+			"backButtonPathDeactive": "<img src=\"assets/Back_button_Dective.svg\">",
+			"checkAnswerText": "Check Answer",
+			"tryText": "Try Again"
+		},
+		"DropHolder": {
+			"nextButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"nextButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButton": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">",
+			"backButtonDeactive": "<img src=\"assets/Dragger_Arrow_Next_Active.svg\">"
+		},
+		"LeftPos": [
+			489,
+			537,
+			601
+		],
+		"TopPos": [
+			71,
+			229,
+			341
+		],
+		"OptionArray": [ 
+			"Left lower lobe",
+			"Oblique (major) fissure",
+			"Left upper lobe"
+		],
+		"DropPosition": [
+			"Left",
+			"Left",
+			"Right"
+		],
+		"CorrectOptionArray": [
+			"Left upper lobe",  
+			"Oblique (major) fissure",
+			"Left lower lobe"
+		],
+		"DropListArray": [
+			"1",
+			"2",
+			"3"
+		],
+		"DropListAriaLabel": [
+			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
 			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item.",
 			"To select this, press the Enter or Spacebar key. Press the Up and Down arrow key to move to next or previous item."
 		]
