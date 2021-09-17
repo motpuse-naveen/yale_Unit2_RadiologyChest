@@ -310,6 +310,7 @@ body:not(.show-focus-outlines) [tabindex]:focus {
     height: 66px;
 }
 
+.dragable.menu{min-width: 520px;}
 
 .callout {
     box-sizing: border-box;
