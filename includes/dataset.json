@@ -103,7 +103,7 @@
 			442
 		],
 		"OptionArray": [
-			"Oblique (minor) fissure",  
+			"Oblique (major) fissure",  
 			"Horiz. (minor) fissure",
 			"Right upper lobe",
 			"Liver",
@@ -121,7 +121,6 @@
 		"CorrectOptionArray": [
 			"Right upper lobe",  
 			"Horiz. (minor) fissure",
-			"Oblique (minor) fissure",
 			"Right middle lobe",
 			"Right lower lobe",
 			"Liver"
